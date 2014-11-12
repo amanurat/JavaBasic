@@ -1,4 +1,4 @@
-package com.training.oop.relation1;
+package com.training.oop.inheritance;
 
 /**
  * Date: 10/2/2014

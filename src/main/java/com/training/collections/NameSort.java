@@ -26,6 +26,7 @@ public class NameSort {
 }
 
 class Name implements Comparable<Name> {
+
     private final String firstName, lastName;
 
     public Name(String firstName, String lastName) {

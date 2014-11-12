@@ -1,4 +1,4 @@
-package com.training.oop.override;
+package com.training.oop.overriding;
 
 /**
  * Date: 10/2/2014

@@ -1,4 +1,4 @@
-package com.training.oop.relation2;
+package com.training.oop.interfaces;
 
 /**
  * Date: 10/2/2014

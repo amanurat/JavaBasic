@@ -1,4 +1,4 @@
-package com.training.oop.encapsulation.constructor;
+package com.training.oop.constructor;
 
 /**
  * Created by amanurat on 9/13/14 AD.
