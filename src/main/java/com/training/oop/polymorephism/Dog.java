@@ -1,4 +1,4 @@
-package com.training.oop.inheritance;
+package com.training.oop.polymorephism;
 
 /**
  * Date: 10/2/2014
@@ -6,7 +6,7 @@ package com.training.oop.inheritance;
  *
  * @author assanai.manurat
  */
-class Dog extends Mammal{
+public class Dog extends Mammal{
 
     @Override
     void eat() {

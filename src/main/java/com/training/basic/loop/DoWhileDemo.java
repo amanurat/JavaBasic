@@ -1,4 +1,4 @@
-package com.training.basic.flow;
+package com.training.basic.loop;
 
 /**
  * Date: 10/2/2014
@@ -6,12 +6,12 @@ package com.training.basic.flow;
  *
  * @author assanai.manurat
  */
-class WhileDemo {
+class DoWhileDemo {
     public static void main(String[] args) {
         int count = 1;
-        while (count < 11) {
+        do {
             System.out.println("Count is: " + count);
             count++;
-        }
+        } while (count < 11);
     }
 }

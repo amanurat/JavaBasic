@@ -1,4 +1,4 @@
-package com.training.oop.inheritance;
+package com.training.oop.polymorephism;
 
 /**
  * Date: 10/2/2014
