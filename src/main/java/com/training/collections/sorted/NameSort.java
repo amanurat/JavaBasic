@@ -1,4 +1,4 @@
-package com.training.collections;
+package com.training.collections.sorted;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,7 +24,6 @@ public class NameSort {
         System.out.println(names);
     }
 }
-
 class Name implements Comparable<Name> {
 
     private final String firstName, lastName;

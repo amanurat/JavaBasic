@@ -1,4 +1,4 @@
-package com.training.collections;
+package com.training.collections.sorted;
 
 import java.util.*;
 

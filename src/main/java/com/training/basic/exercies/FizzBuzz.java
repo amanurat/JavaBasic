@@ -8,7 +8,7 @@
  * For a commercial use license, or to purchase the book, 
  * please visit http://www.davidflanagan.com/javaexamples3.
  */
-package com.training.basic;
+package com.training.basic.exercies;
 
 /**
  * This program plays the game "Fizzbuzz".  It counts to 100, replacing each
