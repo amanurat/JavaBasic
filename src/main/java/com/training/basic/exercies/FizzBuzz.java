@@ -31,4 +31,18 @@ public class FizzBuzz {                      // Everything in Java is a class
         }
         System.out.println();
     }
+
+    public String getResult(int number) {
+
+        if (number == 1) {
+            return "1";
+        } else if (number == 2) {
+            return "2";
+        } else if (number == 3) {
+            return "Fizz";
+        }
+
+
+        return String.valueOf(number);
+    }
 }
