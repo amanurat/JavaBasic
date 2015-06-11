@@ -14,8 +14,8 @@ public class Fibonacci {
         System.out.println("\n\nFibonacci series upto " + number + " numbers : ");
         //printing Fibonacci series upto number
         for (int i = 1; i <= number; i++) {
-//            System.out.print(fibonacciRecusion(i) +" ");
-            System.out.print(fibonacciLoop(i) + " ");
+            System.out.print(fibonacciRecusion(i) +" ");
+//            System.out.print(fibonacciLoop(i) + " ");
         }
     }
 
@@ -24,8 +24,15 @@ public class Fibonacci {
         if (number == 1 || number == 2) {
             return 1;
         }
+        System.out.println(" number : "+ number);
 
-        return fibonacciRecusion(number - 1) + fibonacciRecusion(number - 2); //tail recursion
+        int v1 = fibonacciRecusion(number - 1);
+        int v2 = fibonacciRecusion(number - 2);
+
+        int result = v1 + v2; //tail recursion
+        System.out.println("v1 :" + v1 + " , v2 : "+ v2);
+        System.out.println("result : "+ result);
+        return result;
     }
 
     // Java program for Fibonacci number using Loop.
