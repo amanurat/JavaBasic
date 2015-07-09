@@ -4,22 +4,31 @@ public class Outer {
 
     private String thoughts = "My outer thoughts";
 
+    private String information = "My Information";
+
     class Inner {
-        String innerThoughts = "My inner thoughts";
+        String thoughts = "My inner thoughts";
+
+        //static String myStaticInforamtion = "My Static Information"; // Cannot declaring static on inner class
+
         void doStuff() {
             // inner object has its own "this"
-            System.out.println(innerThoughts);
+            System.out.println(this.thoughts);
 
             // and it also has a kind of "outer this"
             // even for private data of outer class
-            System.out.println(thoughts);
+            System.out.println(Outer.this.thoughts);
+            System.out.println(information);
         }
     }
     static class Inner2 {
-        String innerStr = "My inner2";
+        String thoughts = "My inner2";
+
         void doStuff() {
             // inner object has its own "this"
-            System.out.println(innerStr);
+            System.out.println(thoughts);
+
+            //System.out.println(information); //Cannot access member of Outer class
 
         }
     }
@@ -39,7 +48,6 @@ public class Outer {
 
         Inner2 inner2 = new Outer.Inner2();
         inner2.doStuff();
-
-
     }
+
 }

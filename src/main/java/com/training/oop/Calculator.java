@@ -4,9 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Created by amanurat on 7/20/14 AD.
- */
 public class Calculator {
 
     public static void main(String[] args) {

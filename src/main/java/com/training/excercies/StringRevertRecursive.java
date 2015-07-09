@@ -1,4 +1,4 @@
-package com.training.basic.exercies;
+package com.training.excercies;
 
 public class StringRevertRecursive {
 

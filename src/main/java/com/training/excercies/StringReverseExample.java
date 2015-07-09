@@ -1,4 +1,4 @@
-package com.training.basic.exercies;
+package com.training.excercies;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

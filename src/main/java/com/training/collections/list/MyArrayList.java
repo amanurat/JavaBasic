@@ -15,6 +15,7 @@ public class MyArrayList {
         alist.add(new String("Two"));
         alist.add(new String("Three"));
 
+
         System.out.println(alist.get(0));
         System.out.println(alist.get(1));
         System.out.println(alist.get(2));

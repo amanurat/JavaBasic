@@ -4,9 +4,9 @@ package com.training.oop.overloading;
  * Created by amanurat on 9/13/14 AD.
  */
 
-public class MyOverloading {
+public class ConstructorOverloading {
 
-    public MyOverloading(){
+    public ConstructorOverloading(){
         char value[] = { 'a','c'};
 
 
@@ -27,20 +27,20 @@ public class MyOverloading {
 
         System.out.println("Inside default constructor");
     }
-    public MyOverloading(int i){
+    public ConstructorOverloading(int i){
         System.out.println("Inside single parameter constructor with int value");
     }
-    public MyOverloading(String str){
+    public ConstructorOverloading(String str){
         System.out.println("Inside single parameter constructor with String object");
     }
-    public MyOverloading(int i, int j){
-        System.out.println("Inside double parameter constructor");
+    public ConstructorOverloading(int i, int j){
+        System.out.println("Inside double parameter constructor with int value");
     }
 
     public static void main(String a[]){
-        MyOverloading obj = new MyOverloading();
-        MyOverloading obj1 = new MyOverloading(10);
-        MyOverloading obj2 = new MyOverloading(10,20);
-        MyOverloading obj3 = new MyOverloading("hello");
+        ConstructorOverloading obj = new ConstructorOverloading();
+        ConstructorOverloading obj1 = new ConstructorOverloading(10);
+        ConstructorOverloading obj2 = new ConstructorOverloading(10,20);
+        ConstructorOverloading obj3 = new ConstructorOverloading("hello");
     }
 }

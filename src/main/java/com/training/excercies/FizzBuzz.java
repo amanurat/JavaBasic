@@ -8,7 +8,7 @@
  * For a commercial use license, or to purchase the book, 
  * please visit http://www.davidflanagan.com/javaexamples3.
  */
-package com.training.basic.exercies;
+package com.training.excercies;
 
 /**
  * This program plays the game "Fizzbuzz".  It counts to 100, replacing each
@@ -33,16 +33,15 @@ public class FizzBuzz {                      // Everything in Java is a class
     }
 
     public String getResult(int number) {
+        if(number % 3 == 0 && number % 5 == 0){
+            return "FizzBuzz";
+        } else if (number % 3 == 0) {
 
-        if (number == 1) {
-            return "1";
-        } else if (number == 2) {
-            return "2";
-        } else if (number == 3) {
             return "Fizz";
+        } else if (number % 5 == 0) {
+            return "Buzz";
         }
-
-
         return String.valueOf(number);
     }
+
 }

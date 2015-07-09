@@ -6,18 +6,18 @@ package com.training.oop.overloading;
  *
  * @author assanai.manurat
  */
-public class OverloadDemo {
+public class MethodOverloading {
 
     private String name;
 
     private int age;
 
     //Default Constructor
-    public OverloadDemo() {
+    public MethodOverloading() {
     }
 
     //Overloading Constructor
-    public OverloadDemo(String name, int age) {
+    public MethodOverloading(String name, int age) {
         this.name = name;
         this.age = age;
 
@@ -39,13 +39,13 @@ public class OverloadDemo {
     }
 
     public static void main(String[] args) {
-        OverloadDemo demo1 = new OverloadDemo();
+        MethodOverloading demo1 = new MethodOverloading();
         demo1.method("name1");
         demo1.method(10);
         demo1.method("name1", 10);
 
 
-        OverloadDemo demo2 = new OverloadDemo("name2", 20);
+        MethodOverloading demo2 = new MethodOverloading("name2", 20);
 
 
     }

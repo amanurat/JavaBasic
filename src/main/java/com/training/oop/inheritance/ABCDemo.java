@@ -1,5 +1,8 @@
 package com.training.oop.inheritance;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by amanurat on 11/12/14 AD.
  */
@@ -38,6 +41,10 @@ class C extends B {
 
 public class ABCDemo {
     public static void main(String[] args) {
+
+
+
+
         A a = new A();
         B b = new B();
         C c = new C();
