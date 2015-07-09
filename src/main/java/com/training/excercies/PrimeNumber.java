@@ -7,7 +7,7 @@ import java.util.Scanner;
  * A prime number is a number which is greater than 1 and divisible
  * by either 1 or itself.
  */
-public class PrimeNumberExample {
+public class PrimeNumber {
 
     public static void main(String args[]) {
 

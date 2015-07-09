@@ -14,20 +14,20 @@ public class Fibonacci {
         System.out.println("\n\nFibonacci series upto " + number + " numbers : ");
         //printing Fibonacci series upto number
         for (int i = 1; i <= number; i++) {
-            System.out.print(fibonacciRecusion(i) +" ");
+            System.out.print(fibonacciRecursion(i) +" ");
 //            System.out.print(fibonacciLoop(i) + " ");
         }
     }
 
     // Java program for Fibonacci number using recursion.
-    public static int fibonacciRecusion(int number) {
+    public static int fibonacciRecursion(int number) {
         if (number == 1 || number == 2) {
             return 1;
         }
         System.out.println(" number : "+ number);
 
-        int v1 = fibonacciRecusion(number - 1);
-        int v2 = fibonacciRecusion(number - 2);
+        int v1 = fibonacciRecursion(number - 1);
+        int v2 = fibonacciRecursion(number - 2);
 
         int result = v1 + v2; //tail recursion
         System.out.println("v1 :" + v1 + " , v2 : "+ v2);

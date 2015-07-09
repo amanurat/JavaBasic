@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Simple Java program to reverseString1 a number in Java using loop and operator
  * This program also shows example of using division operator(/) and Remainder Operator(%)
  */
-public class ReverseNumberExample {
+public class ReverseNumber {
 
     public static void main(String args[]) {
         //input number to reverseString1

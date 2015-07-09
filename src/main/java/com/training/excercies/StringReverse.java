@@ -1,11 +1,8 @@
 package com.training.excercies;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
+public class StringReverse {
 
-public class StringReverseExample {
-
-    public static void main(String args[]) throws FileNotFoundException, IOException {
+    public static void main(String args[]) throws Exception {
 
         //original string
         String str = "Sony is going to introduce Internet TV soon";
